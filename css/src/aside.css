@@ -1,0 +1,59 @@
+/*Aside*/
+
+aside{
+    border: 1px solid #dbdbdb; 
+    background-color: #f5f5f5;
+    float: right;
+    padding: 15px;
+    width: 23%;    
+    font-size: 12px;
+}
+
+aside h2{
+    font-family: 'Ubuntu', sans-serif;       
+    font-size: 18px;
+    margin-bottom: 10px;    
+}
+
+aside a.phone{
+    font-size: 28px;
+    line-height: 44px;
+    color: #4fa855;
+}
+
+aside input{
+    height: 30px;
+    border-radius: 6px;  
+    margin: 5px 0;    
+    padding-left: 5px;
+    width: 100%;
+}
+
+
+aside input:focus{
+    outline: 0;
+}
+
+aside input::-webkit-input-placeholder {
+   font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-style: italic;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-style: italic;  
+}
+
+:-ms-input-placeholder {  
+   font-style: italic;  
+}
+
+/* Responsive fixes */
+@media all and (max-width: 640px){
+    aside{
+        float: none;
+        width: 100%;    
+    }
+}

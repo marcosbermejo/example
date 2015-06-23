@@ -1,0 +1,27 @@
+/*Document Footer*/
+main > footer{
+    background-color: #ededed;
+    border-top: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+main > footer p{
+    line-height: 40px;
+    color: #736867;    
+    font-size: 12px;    
+}
+
+main > footer p a{
+    color: #736867;
+    font-size: 12px;
+    text-decoration: underline;    
+}
+
+main > footer p a.selected{
+    text-decoration: none;
+}
+
+main > footer img{
+    margin-right: 5px;
+    margin-bottom: -4px;
+}

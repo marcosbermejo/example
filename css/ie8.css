@@ -1,0 +1,21 @@
+/* Use the native checkbox in ie8 */
+
+input[type="checkbox"] {
+    display: inline;
+}
+
+input[type="checkbox"] + label span {
+    display: none;
+}
+
+.slider figure .visor .slide .b-slide{
+    display: none;
+}
+
+.slider figure .visor .slide.selected-b-slide .b-slide{
+    display: inline-block;
+}
+
+.slider figure .visor .slide.selected-b-slide .a-slide{
+    display: none;
+}

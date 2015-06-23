@@ -1,0 +1,136 @@
+/*Header*/
+
+body > header{
+    background-color: #ededed;
+}
+
+.profile-navigation{
+    color: #736867;
+    padding-top: 5px;
+}
+.profile-navigation > span,
+.profile-navigation a{
+    color: #736867;
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.profile-navigation a{
+    text-decoration: underline;    
+}
+
+.profile-navigation > span,
+.profile-navigation a {
+    border-right: 1px solid black;
+}
+
+.profile-navigation a:last-child{
+    border-right: 0;
+}
+
+.profile-navigation a.premium-profile{
+    padding-left: 25px;
+    position: relative;
+}
+
+.profile-navigation a.premium-profile span{
+    background-image: url(../../images/icons.png);
+    background-position: -1px 19px;    
+    border-radius: 3px;    
+    display: inline-block;
+    height: 18px;
+    left: 5px;    
+    position: absolute;
+    top: -4px;
+    width: 18px;    
+}
+
+.profile-navigation .premium-profile:hover span{
+    background-position: -1px -1px;  
+}
+
+header nav{
+    float: right;
+}
+
+.mobile-menu{
+    color: #736867;
+    float: right;
+    padding: 20px 20px 20px 0;
+    display: none;
+}
+
+/*Navigation*/
+
+.navigation{
+    background: #941e0f; /* Old browsers */
+    background: -moz-linear-gradient(top, #941e0f 0%, #000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#941e0f), color-stop(100%,#000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #941e0f 0%,#000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #941e0f 0%,#000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #941e0f 0%,#000 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #941e0f 0%,#000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#941e0f', endColorstr='#000',GradientType=0 ); /* IE6-9 */
+
+    font-family: 'Ubuntu', sans-serif;        
+}
+
+.navigation a{
+    color: #fff;
+    line-height: 46px;
+    margin-right: 40px;
+}
+
+.navigation a:hover {
+  opacity: 0.8;
+}
+
+/* Responsive fixes */
+@media all and (max-width: 640px){
+    .mobile-menu{
+        display: block;
+    }
+    
+
+    
+    body > header img{
+        margin-left: 10px;
+    }    
+    
+    .profile-navigation{
+        clear: both;
+        width: 40%;
+        float: right;
+    }
+
+    #profile-navigation-id a,
+    #profile-navigation-id > span{
+        border: 0;
+        display: block;
+        margin: 10px 0;
+        text-decoration: none;
+    }
+
+    nav.profile-navigation a.premium-profile{
+        padding: 0 5px;
+    }
+
+    nav.profile-navigation a.premium-profile span{
+        display: none;
+    }    
+    
+    .navigation{
+        height: 230px;
+    }
+    
+    .navigation .container{
+        float: right;
+        padding-left: 10px;        
+        width: 60%;
+    }
+    
+    .navigation .container a{
+        display: block;
+        white-space: nowrap;
+    }
+}

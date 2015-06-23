@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/src/reset.css" rel="stylesheet"/> 
+        <link href="css/src/header.css" rel="stylesheet"/> 
+        <link href="css/src/slider.css" rel="stylesheet"/> 
+        <link href="css/src/first-class.css" rel="stylesheet"/> 
+        <link href="css/src/aside.css" rel="stylesheet"/> 
+        <link href="css/src/footer.css" rel="stylesheet"/> 
+        
+        <link rel="icon" href="images/logo_small.png">
+        
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" type="text/css" href="css/ie8.css" />
+            <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <a href="#"> 
+                    <img src="images/logo.png" alt="Example" />  
+                </a>
+                <a href="#" class="mobile-menu" id="mobile-menu-id" >
+                  &#9776; Menu
+                </a>                
+                <nav class="profile-navigation hidden-mobile" id="profile-navigation-id">
+                    <span>Home</span>
+                    <a href="#">Profile</a>
+                    <a href="#"><span></span>Premium</a>
+                    <a href="#">Logout</a>
+                </nav>
+            </div>
+        </header>
+        
+        <main>
+            <nav class="navigation hidden-mobile" id="navigation-id">
+                <div class="container">
+                    <a href="#">Profile</a>
+                    <a href="#">Reserve appointment</a>
+                    <a href="#">Ask an expert</a>
+                    <a href="#">Estadísticas</a>
+                    <a href="#">Statistics</a>
+                </div>
+
+            </nav>
+            
+            <section class="slider">
+                <div class="dotted">
+                    <div class="container">
+                        <header>
+                            <h1>Main Features</h1>
+                            <p>Raise your company to the next level with our main features.</p>
+                        </header>
+
+                        <figure>
+                            <div class="visor">
+                                <div class="slide">
+                                    <img class="a-slide" src="images/slider/slide1.jpg" alt="Feature 1">
+                                    <img class="b-slide" src="images/slider/slide1b.jpg" alt="New feature 1" >
+                                </div><div class="slide">
+                                    <img class="a-slide" src="images/slider/slide2.jpg" alt="Feature 2">
+                                    <img class="b-slide" src="images/slider/slide2b.jpg" alt="New feature 2" >
+                                </div><div class="slide">
+                                    <img class="a-slide" src="images/slider/slide3.jpg" alt="Feature 3">
+                                    <img class="b-slide" src="images/slider/slide3b.jpg" alt="New feature 3" >
+                                </div>                                    
+                            </div>
+
+                            <img src="images/slider_frame.png" class="frame" alt="Slider">
+                            <img src="images/frame_decoration.png" class="decoration" alt="Decoration">
+                            
+                        </figure>
+
+                        <ul class="features" id="features-id">
+                            <li id="feature-0" class="selected">
+                                Feature 1: Lorem Ipsum es simplemente el texto de relleno de las imprentas
+                            </li>
+                            <li id="feature-1">
+                                Feature 2: Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500
+                            </li>
+                            <li id="feature-2">
+                                Feature 3: No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos
+                            </li>
+                            <li class="not-counted">See more</li>
+                        </ul>
+                        
+                        <div class="clear"></div>
+                        
+                    </div>                    
+                </div>
+                
+            </section>
+            
+            <div class="container">
+                
+                <aside>
+                    <h2>Call us</h2>
+                    <p>Ask for support calling to:</p>
+                    <a class="phone" href="tel:+34654654654">654 654 654</a>
+                    <p>or</p>
+                    <input type="text" placeholder="Send us your question">
+                </aside>
+                
+                <section class="first-class">
+                    <header>
+                        <h2>This is an example of a table</h2>
+                    </header>
+                    
+                    <table id="activities">
+                        <caption>Click the rows to select your options:</caption>
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Price</th>
+                                <th>Availability</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-checkbox="check-0">
+                                <td>
+                                    <input id="check-0" type="checkbox" />
+                                    <label>
+                                        <span></span>First item
+                                    </label>
+                                </td>
+                                <td>9.50€</td>
+                                <td>4 places</td>
+                            </tr>
+                            <tr data-checkbox="check-1">
+                                <td>
+                                    <input id="check-1" type="checkbox" />
+                                    <label>
+                                        <span></span>Second item
+                                    </label>
+                                </td>
+                                <td>10.99€</td>
+                                <td>3 palces</td>
+                            </tr>
+                            <tr data-checkbox="check-2">
+                                <td>
+                                    <input id="check-2" type="checkbox" />
+                                    <label>
+                                        <span></span>Third item
+                                    </label>
+                                </td>                              
+                                <td>24.50€</td>
+                                <td>2 places</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="call-to-action">
+                        <a href="#" role="button">Buy now &#187;</a>
+                        <p class="phone">
+                            <span></span>
+                            Call us at <strong>654 654 654</strong> for any question    </p>
+                        
+                    </div>
+                    
+                    <footer>
+                        <p>
+                            Lorem ipsum dolor sit amet, <strong>consectetur 
+                            adipiscing elit</strong>, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, <strong>quis nostrud exercitation 
+                            ullamco</strong> laboris nisi ut aliquip ex ea commodo consequat.               
+                        </p>
+                    </footer>
+                    
+                </section>
+                
+                <section class="first-class">
+                    <header>
+                        <h2>This is an example of a list</h2>
+                    </header>
+                    <ul>
+                        <li>
+                            Sed ut perspiciatis unde omnis iste natus error 
+                            sit voluptatem <strong>accusantium doloremque laudantium, 
+                            totam rem aperiam</strong>, eaque ipsa quae ab illo inventore 
+                            veritatis et quasi architecto beatae vitae 
+                            dicta sunt explicabo.
+                        </li>
+                        <li>
+                            <strong>Nemo enim ipsam voluptatem quia voluptas sit 
+                            aspernatur aut odit aut fugit</strong>, sed quia consequuntur 
+                            magni dolores eos qui ratione voluptatem sequi nesciunt.
+                        </li>
+                        <li>
+                            Neque porro quisquam est, <strong>qui dolorem ipsum quia 
+                            dolor sit amet, consectetur, adipisci velit</strong>, sed 
+                            quia non numquam eius modi tempora incidunt ut 
+                            labore et dolore magnam aliquam quaerat voluptatem. 
+                        </li>
+                        <li>
+                            At vero eos et <strong>accusamus et iusto</strong>
+                            odio dignissimos 
+                            ducimus qui blanditiis praesentium voluptatum 
+                            deleniti atque corrupti quos dolores.
+                        </li>
+                        <li>
+                            Nam libero tempore, <strong>cum soluta nobis est eligendi</strong> 
+                            optio cumque nihil impedit quo minus id quod maxime 
+                            placeat facere possimus, omnis voluptas assumenda est, 
+                            omnis dolor repellendus.
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            
+            <footer class="clear">
+                <div class="container">
+                    <p>
+                        <img src="images/logo_small.png" alt="Example" />
+                        &copy; 2015 Example Company S.L. 
+                        <a href="#">Privacy Policy</a> |
+                        <a href="#">Support</a>                                            
+                    </p>
+                </div>
+            </footer>
+        </main>
+    
+        <script src="js/src/utilities.js" type="text/javascript"></script>
+        <script src="js/src/slider.js" type="text/javascript"></script>
+        <script src="js/src/table.js" type="text/javascript"></script>
+        <script src="js/src/mobile_menu.js" type="text/javascript"></script>
+        <script src="js/src/main.js" type="text/javascript"></script>
+        
+    </body>
+</html>

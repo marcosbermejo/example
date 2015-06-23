@@ -1,0 +1,80 @@
+/* CSS Reset */
+
+html, body, div, form, fieldset, legend, label
+{
+ margin: 0;
+ padding: 0; 
+}
+
+table
+{
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+th, td
+{
+ text-align: left;
+ vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6, th, td, caption, p { 
+    font-weight: normal; 
+    margin: 0;
+}
+
+caption{
+    text-align: left;
+}
+
+figure, ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+img { 
+    border: 0; 
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial; 
+    min-width: 320px;
+}
+
+.clear{
+    clear: both;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url(../../ubuntu.woff2) format('woff2');
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 940px;
+}
+
+@media all and (max-width: 640px){
+    .hidden-mobile{
+        display: none;
+    }
+}
